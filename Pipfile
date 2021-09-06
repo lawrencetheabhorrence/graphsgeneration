@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+papermill = "*"
+jupyter = "*"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+jupyter-contrib-nbextensions = "*"
+nbconvert = "*"
+pyppeteer = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
